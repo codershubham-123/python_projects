@@ -1,0 +1,20 @@
+In this program, we are going to design Multilevel Parking Syatem.
+
+Requirement:
+	* There is N number of parking levels in multilevel parking.
+	* On each level, there would be X number of parking slots.
+	* Assume the number of slots is the same on each level.
+
+I am implementing multilevel parking system in Python using object oriented concepts. First I create a Parking class and make constructor. In this class we add multiple class method.
+
+Class Structure :
+
+park : park method perform operation to parking of vehicle, that stores vehicle registration ID and vehicle color in a tuple. If the total slots of each floor has already full then it return Parking full.
+
+Unparking : Unparking method perform operation to unparking of vehicle from parking system. It take Registration Id of vehicle because each vehicle has a different regidtration id but color will be same of many vehicle, if registration id matched to the parking data then vehicle will be unparked and remove that registration id from data.
+
+search_by_registrationId : By this method we can get the position of vehicle in our system using registration id.
+
+search_by_color :  By this method we can get the position of vehicle in our system using vehicle color. 
+
+prnt : It print all data of the system.
